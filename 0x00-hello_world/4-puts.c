@@ -1,2 +1,2 @@
-int puts("Programming is like building a multilingual puzzle);
+int puts(const char *"Programming is like building a multilingual puzzle);
 
