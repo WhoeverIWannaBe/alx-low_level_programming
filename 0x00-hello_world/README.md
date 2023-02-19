@@ -5,3 +5,7 @@
 2-assembler : Fenerates assembly code of C and saves as output file of same name as .s file extension
 
 3-name : Compiles C file and creates an executable named cisfun
+
+4-puts.c : Prints a specific sentence using the puts function
+
+5-printf.c : Prints a specific sentence using the printf function
