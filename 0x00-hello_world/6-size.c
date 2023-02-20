@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main (void)
+int main()
 {
 	sizeof(char);
 	sizeof(long);
@@ -9,5 +9,8 @@ int main (void)
 	sizeof(unsigned short);
 	sizeof(unsigned int);
 	sizeof(unsigned long);
-	return(0);
+	sizeof(long long int);
+	sizeof(float);
+
+	return (0);
 }
