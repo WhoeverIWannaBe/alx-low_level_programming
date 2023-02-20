@@ -1,9 +1,7 @@
 #include<stdio.h>
 int main(void)
 {
-	char c;
-
-	sizeof(c);
+	sizeof(char);
 	sizeof(long);
 	sizeof(int);
 	sizeof(short);
@@ -12,7 +10,7 @@ int main(void)
 	sizeof(unsigned int);
 	sizeof(unsigned long);
 	sizeof(long long int);
-	sizeof(float);
+	printf("Size of float: \n", sizeof(float));
 
 	return (0);
 }
