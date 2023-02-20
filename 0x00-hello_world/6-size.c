@@ -1,7 +1,9 @@
 #include<stdio.h>
-int main()
+int main(void)
 {
-	sizeof(char);
+	char c;
+
+	sizeof(c);
 	sizeof(long);
 	sizeof(int);
 	sizeof(short);
