@@ -3,7 +3,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-void main()
+int main(void)
 {
 	int n;
 
@@ -11,13 +11,13 @@ void main()
 	n = rand() - RAND_MAX / 2;
 	if (n > 0) 
 	{
-		printf("%d is positive");
+		printf("%zu is positive");
 		else if (n = 0)
 		{
-			printf("is zero");
+			printf("%zu is zero");
 			else if (n < 0)
 				{
-					printf("%d is negative");
+					printf("%zu is negative");
 				}
 		}
 	}
