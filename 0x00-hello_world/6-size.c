@@ -1,9 +1,18 @@
 #include<stdio.h>
 int main(void)
 {
-	float floatType;
+	float f;
+	char c;
+	long l;
+	short s;
+	unsigned char uc;
+	unsigned short us;
+	unsigned int ui;
+	int i;
+	unsigned long ul;
+	long long int lli;
 
-	sizeof(char);
+	printf("Size of char:", sizeof(c), "byte(s)");
 	sizeof(long);
 	sizeof(int);
 	sizeof(short);
