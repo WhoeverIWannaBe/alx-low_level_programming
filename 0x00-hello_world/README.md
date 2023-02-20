@@ -9,3 +9,5 @@
 4-puts.c : Prints a specific sentence using the puts function
 
 5-printf.c : Prints a specific sentence using the printf function
+
+6-size.c : Prints the size of various types on the computer it is compiled and run on
