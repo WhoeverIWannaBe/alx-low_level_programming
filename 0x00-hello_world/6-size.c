@@ -5,6 +5,7 @@ int main(void)
 	int i;
 	char c;
 	long int li;
+	long l;
 	long long int lli;
 
 	printf("Size of a float: %zu byte(s)\n", sizeof(f));
@@ -12,6 +13,7 @@ int main(void)
 	printf("Size of a long: %zu byte(s)\n", sizeof(l));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(li));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(lli));
+	printf("Size of a char: %zu byte(s)\n", sizeof(c));
 
 	return (0);
 }
